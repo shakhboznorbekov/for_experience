@@ -1,19 +1,19 @@
-package main
+// package main
 
-import (
-	"fmt"
-)
+// import (
+// 	"fmt"
+// )
 
-func main() {
+// func main() {
 
-	var number int
+// 	var number int
 
-	fmt.Println("Input number:")
-	fmt.Scan(&number)
+// 	fmt.Println("Input number:")
+// 	fmt.Scan(&number)
 
-	if number % 2 != 0 {
-		fmt.Println("Odd number")
-	} else if number % 2 == 0 {
-		fmt.Println("Even number")
-	}
-}
+// 	if number % 2 != 0 {
+// 		fmt.Println("Odd number")
+// 	} else if number % 2 == 0 {
+// 		fmt.Println("Even number")
+// 	}
+// }

@@ -1,31 +1,22 @@
-package main
+// package main
 
-import (
-	"fmt"
-)
 
-func main() {
+// func isPalindrome(x int) bool {
+// 	if x<0 {
+// 		return false
+// 	}
+// 	b:=x
+//     sum := 0
+// 	for x > 0 {
 
-	var number int
+// 		remain := x % 10
 
-	fmt.Println("Input number: ")
-	fmt.Scan(&number)
+// 		sum = sum*10 + remain
 
-	sum, a := 0, number
-
-	for a > 0 {
-
-		remain := a % 10
-
-		sum = sum*10 + remain
-
-		a /= 10
-	}
-
-	if sum == number {
-		fmt.Println("Palindrom number")
-		return
-	}
-
-	fmt.Println("Not Palindrome")
-}
+// 		x /= 10
+// 	}
+// 	if sum != b {
+// 		return false
+// 	}
+// 	return true
+// }
